@@ -1,0 +1,9 @@
+usereffect notater
+
+
+
+må imorters fra react som usestate
+onclick krenger en ekstra ()
+
+
+useeffect(()=>{}, []) dette er helle useeffect
