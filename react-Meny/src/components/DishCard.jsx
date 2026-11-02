@@ -5,7 +5,7 @@ export default function DishCard({ tittel, pris, ingredienser, kategori }) {
   // som blir til props i meny filen
   return (
     //her tar eg og styler en border på meny kortet i en div
-    <div style={{ border: "solid white" }}>
+    <div>
       <h2>{tittel}</h2>
       <h2>{pris}</h2>
       <p>{ingredienser}</p>
