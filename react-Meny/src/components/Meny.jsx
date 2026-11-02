@@ -1,4 +1,4 @@
-import "DishCard.jsx";
+import DishCard from "./DishCard";
 
 export default function MenyList(props) {
   // eg exporter function videre til app.jsx
@@ -7,7 +7,7 @@ export default function MenyList(props) {
   return (
     <>
       <h1>min Meny</h1>
-      {props.Meny?.map((food) => (
+      {props.dishes?.map((food) => (
         <DishCard key={food.id} {...food} />
       ))}
       ;

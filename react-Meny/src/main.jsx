@@ -2,12 +2,11 @@ import { Component, StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./app.css";
 import App from "./App.jsx";
-import DishCard from "./components/DishCard.jsx";
+import { Component } from "react";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Component />
   </StrictMode>,
 );
 
