@@ -1,14 +1,16 @@
 import "./App.css";
 //importere styling filen
-import Dish from "./components/DishCard1.jsx";
+import { Meny }from "./components/Meny2.jsx";
+import { Menu } from "./data/Menu.js";
 
-function App() {
+
+export default function App() {
   return (
     <>
-      <Meny2 DishCard1={Dish} />
+      <Meny Menu={Menu} />
+      
     </>
     // husk og bruk <Meny /> i andre filer med som skal exportes eller imports
   );
 }
 
-export default App;

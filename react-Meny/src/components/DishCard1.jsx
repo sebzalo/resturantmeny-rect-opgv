@@ -5,11 +5,11 @@ export default function Dish({ tittel, pris, ingredienser, kategori }) {
   // som blir til props i meny filen
   return (
     //her tar eg og styler en border på meny kortet i en div
-    <>
+    <div style={{border: "solid white"}}>
       <h2>{tittel}</h2>
       <h2>{pris}</h2>
       <p>{ingredienser}</p>
       <p>{kategori}</p>
-    </>
+    </div>
   );
 }
