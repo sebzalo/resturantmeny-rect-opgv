@@ -1,4 +1,4 @@
-export const dishes = [
+export const Menu = [
     // legger til objektet fra oppgåven og
     // exporter det sån at den kan brukes i conponents
     {

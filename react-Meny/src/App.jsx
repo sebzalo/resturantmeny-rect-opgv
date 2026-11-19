@@ -1,13 +1,11 @@
 import "./App.css";
 //importere styling filen
-import Meny from "./components/MenyList";
-//importer funksjonen Menylsit fra Meny
-import { dishes } from "./data/MenyData";
+import Dish from "./components/DishCard1.jsx";
 
 function App() {
   return (
     <>
-      <Meny dishes={dishes} />
+      <Meny2 DishCard1={Dish} />
     </>
     // husk og bruk <Meny /> i andre filer med som skal exportes eller imports
   );
